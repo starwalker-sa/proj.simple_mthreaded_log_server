@@ -1,11 +1,11 @@
-SIMPLE MULTITHREADED CROSSPLATFORM LOG SERVER
+# The simplest multithreaded crossplatform log server
 
 This is just my simple client-server project and no more... )
 
 Server uses multithreading and interthread sync.
 Threads interacts with each other using queues and messages.
 
-Description
+# Description
 
 1. Client hosts send simple periodic text messages to the server.
 2. The messages contains client name text string with timestamp at the end of each one.
@@ -17,7 +17,7 @@ Description
 
 The server listens port 3000.
 
-How to launch?
+# How to launch?
 
 1. Launch server (on Windows or FreeBSD or Linux)
 2. Launch clients. You must send to client folowing cmd line:
