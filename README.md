@@ -13,7 +13,7 @@ Threads interacts with each other using queues and messages.
 4. Also the server has single logger object running in separate thread and pulling queue messages coming from client's threads on the server. 
 5. For each request recieved from a client host the server creates separate thread to proccess client's message.
 6. After processing the request client's thread pushes it into the logger thread queue.
-7. Logger thread owning opened file handle grabes message from his queue and writes it to the log file.
+7. Logger thread owning opened log file handle grabes message from his queue and writes it to the log file.
 
 The server listens port 3000.
 
